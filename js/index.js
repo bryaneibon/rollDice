@@ -12,6 +12,10 @@ while (nameChecker) {
         nameChecker = false;
     }
 }
+
+player1Name = player1Name.toUpperCase;
+player2Name = player2Name.toUpperCase;
+
 document.querySelector(".player1").innerHTML = player1Name;
 document.querySelector(".player2").innerHTML = player2Name;
 
