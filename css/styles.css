@@ -1,47 +1,27 @@
-.container {
-  width: 70%;
-  margin: auto;
-  text-align: center;
-}
-
-.dice {
-  text-align: center;
-  display: inline-block;
-
-}
-
 #rollDiceButton {
-  margin: 30px;
-  font-family: 'Indie Flower', cursive;
+  margin: 1.5rem;
   color: #000000;
   text-align: center;
-  font-size: 2rem;
+  font-size: 1rem;
   background-color: #393E46;
-  position: relative;
-  left: 30%;
 }
 
 #rollDiceButton:hover {
-  font-size: 3rem;
+  font-size: 1.5rem;
   background-color: #d0d1d3;
-  left: 25%;
 }
 
 #resetScore {
-  margin: 30px;
-  font-family: 'Indie Flower', cursive;
+  margin: 1.5rem;
   color: #000000;
   text-align: center;
-  font-size: 2rem;
-  background-color: #393E46;
-  position: relative;
-  left: 45%;
+  font-size: 1rem;
+  background-color: #463939;
 }
 
 #resetScore:hover {
-  font-size: 3rem;
-  background-color: #d0d1d3;
-  left: 41%;
+  font-size: 1.5rem;
+  background-color: #b71818;
 }
 
 body {
@@ -50,7 +30,6 @@ body {
 
 h1 {
   margin: 30px;
-  font-family: 'Lobster', cursive;
   text-shadow: 5px 0 #232931;
   font-size: 4rem;
   color: #4ECCA3;
@@ -59,17 +38,19 @@ h1 {
 p {
   font-size: 2rem;
   color: #4ECCA3;
-  font-family: 'Indie Flower', cursive;
 }
 
 img {
-  width: 10%;
+  width: 40%;
 }
 
 footer {
   margin-top: 5%;
   color: #EEEEEE;
   text-align: center;
-  font-family: 'Indie Flower', cursive;
+}
 
+footer > p {
+  font-size: 1rem;
+  color: whitesmoke;
 }

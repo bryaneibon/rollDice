@@ -1,5 +1,5 @@
-var player1Name = prompt("Enter Player 1 Name: ");
-var player2Name = prompt("Enter Player 2 Name: ");
+var player1Name = prompt("1st player name: ");
+var player2Name = prompt("2nd player name: ");
 
 var player1Score = 0;
 var player2Score = 0;
@@ -29,8 +29,8 @@ function compileScore(player1Dice, player2Dice) {
     } else if (theWinner === "P2W") {
         player2Score += 1;
     }
-    document.querySelector(".player1").innerHTML = player1Name + " Score : " + player1Score;
-    document.querySelector(".player2").innerHTML = player2Name + " Score : " + player2Score;
+    document.querySelector(".player1").innerHTML = player1Name + "'s score : " + player1Score;
+    document.querySelector(".player2").innerHTML = player2Name + "'s score : " + player2Score;
 }
 
 document.querySelector(".player1").innerHTML = player1Name;
@@ -51,6 +51,6 @@ document.getElementById("resetScore").addEventListener("click", function() {
     player2Score = 0;
     document.querySelector(".img1").setAttribute("src", "images/dice1.png");
     document.querySelector(".img2").setAttribute("src", "images/dice1.png");
-    document.querySelector(".player1").innerHTML = player1Name + " Score : " + player1Score;
-    document.querySelector(".player2").innerHTML = player2Name + " Score : " + player2Score;
+    document.querySelector(".player1").innerHTML = player1Name + "'s score : " + player1Score;
+    document.querySelector(".player2").innerHTML = player2Name + "'s score : " + player2Score;
 });
