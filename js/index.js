@@ -1,6 +1,17 @@
 var player1Name = prompt("1st player name: ");
 var player2Name = prompt("2nd player name: ");
+var nameChecker = true;
 
+while (nameChecker) {
+    if (player1Name === "" || player1Name === null) {
+        player1Name = prompt("Enter at least one character ... 1st player name: ");
+    } else if (player2Name === "" || player2Name === null) {
+        player2Name = prompt("Enter at least one character ... 2nd player name: ")
+    }
+    else {
+        nameChecker = false;
+    }
+}
 document.querySelector(".player1").innerHTML = player1Name;
 document.querySelector(".player2").innerHTML = player2Name;
 
