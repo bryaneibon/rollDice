@@ -5,7 +5,7 @@ var nameChecker = true;
 while (nameChecker) {
     if (player1Name === "" || player1Name === null || player1Name.length < 2) {
         player1Name = prompt("Enter at least two characters ... 1st player name: ");
-    } else if (player2Name === "" || player2Name === null || player1Name.length < 2) {
+    } else if (player2Name === "" || player2Name === null || player2Name.length < 2) {
         player2Name = prompt("Enter at least two characters ... 2nd player name: ")
     }
     else {
